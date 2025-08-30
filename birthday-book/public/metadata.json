@@ -1,0 +1,115 @@
+{
+  "girlfriendName": "Em Yêu",
+  "birthdayDate": "2025-09-01",
+  "age": 22,
+  "greeting": {
+    "vi": {
+      "title": "Chúc Mừng Sinh Nhật Em Yêu! 🎂",
+      "subtitle": "22 tuổi - Một chương mới của cuộc đời",
+      "message": [
+        "Em yêu của anh,",
+        "Hôm nay là một ngày đặc biệt - ngày mà thiên thần của anh được sinh ra trên thế giới này.",
+        "22 năm qua, em đã lớn lên và trở thành một cô gái xinh đẹp, mạnh mẽ và tuyệt vời.",
+        "Anh muốn gửi đến em những lời chúc tốt đẹp nhất, chúc em luôn xinh đẹp, luôn vui vẻ và hạnh phúc.",
+        "Cảm ơn em đã đến bên anh, đã làm cho cuộc sống của anh trở nên ý nghĩa hơn.",
+        "Yêu em nhiều lắm! ❤️"
+      ]
+    },
+    "en": {
+      "title": "Happy 22nd Birthday My Love! 🎂",
+      "subtitle": "22 years - A new chapter of life",
+      "message": [
+        "My dearest love,",
+        "Today is a special day - the day my angel was born into this world.",
+        "For 22 years, you've grown into a beautiful, strong, and amazing woman.",
+        "I want to send you my best wishes for happiness, joy, and success.",
+        "Thank you for coming into my life and making it more meaningful.",
+        "Love you so much! ❤️"
+      ]
+    }
+  },
+  "photos": [
+    {
+      "src": "/images/photo1.jpg",
+      "caption": "Khoảnh khắc đầu tiên",
+      "date": "2024-01-01"
+    },
+    {
+      "src": "/images/photo2.jpg",
+      "caption": "Nụ cười của em",
+      "date": "2024-03-15"
+    },
+    {
+      "src": "/images/photo3.jpg",
+      "caption": "Chuyến đi đáng nhớ",
+      "date": "2024-06-20"
+    },
+    {
+      "src": "/images/photo4.jpg",
+      "caption": "Hoàng hôn cùng em",
+      "date": "2024-08-10"
+    },
+    {
+      "src": "/images/photo5.jpg",
+      "caption": "Kỷ niệm không thể quên",
+      "date": "2024-09-01"
+    },
+    {
+      "src": "/images/photo6.jpg",
+      "caption": "Hạnh phúc bên nhau",
+      "date": "2024-12-25"
+    }
+  ],
+  "music": {
+    "playlist": [
+      {
+        "id": "1",
+        "src": "/audio/perfect.mp3",
+        "title": "Perfect",
+        "artist": "Ed Sheeran",
+        "cover": "/images/cover1.jpg",
+        "duration": "4:23"
+      },
+      {
+        "id": "2",
+        "src": "/audio/thinking-out-loud.mp3",
+        "title": "Thinking Out Loud",
+        "artist": "Ed Sheeran",
+        "cover": "/images/cover2.jpg",
+        "duration": "4:41"
+      },
+      {
+        "id": "3",
+        "src": "/audio/all-of-me.mp3",
+        "title": "All of Me",
+        "artist": "John Legend",
+        "cover": "/images/cover3.jpg",
+        "duration": "4:29"
+      },
+      {
+        "id": "4",
+        "src": "/audio/marry-you.mp3",
+        "title": "Marry You",
+        "artist": "Bruno Mars",
+        "cover": "/images/cover4.jpg",
+        "duration": "3:50"
+      }
+    ],
+    "autoplay": false,
+    "loop": true,
+    "shuffle": false,
+    "defaultVolume": 0.7
+  },
+  "theme": "romantic",
+  "particles": {
+    "enabled": true,
+    "type": "hearts",
+    "count": 15,
+    "speed": "slow"
+  },
+  "easterEggs": {
+    "enabled": true,
+    "tapCount": 7,
+    "message": "Anh yêu em ❤️"
+  }
+}
