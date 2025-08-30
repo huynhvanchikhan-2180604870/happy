@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Book - Demo Links</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #FFB6C1 0%, #E6E6FA 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #FF69B4;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        a {
+            display: block;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255,182,193,0.4);
+        }
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #FFF8DC;
+            border-radius: 10px;
+            color: #666;
+        }
+        .info h3 {
+            color: #FF69B4;
+            margin-bottom: 10px;
+        }
+        .info ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #90EE90;
+            color: #2E7D32;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎂 Birthday Book Demo</h1>
+        <div class="status">✅ Project Ready!</div>
+        
+        <div class="links">
+            <a href="http://localhost:5173" target="_blank">
+                🚀 Development Server
+                <small style="display: block; margin-top: 5px; opacity: 0.8;">npm run dev</small>
+            </a>
+            <a href="http://localhost:4173" target="_blank">
+                📦 Production Preview
+                <small style="display: block; margin-top: 5px; opacity: 0.8;">npm run preview</small>
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>🎯 Tính năng chính:</h3>
+            <ul>
+                <li>📖 Hiệu ứng sách lật 3D với react-pageflip</li>
+                <li>🎨 Thiết kế Liquid Glass hiện đại</li>
+                <li>🎵 Music Player kiểu Spotify</li>
+                <li>📱 Tối ưu hoàn toàn cho mobile</li>
+                <li>❤️ Giao diện romantic với màu pastel</li>
+                <li>🎁 Easter eggs khi tap 7 lần</li>
+            </ul>
+
+            <h3>📝 Hướng dẫn sử dụng:</h3>
+            <ul>
+                <li>Chỉnh sửa nội dung trong <code>public/metadata.json</code></li>
+                <li>Thêm ảnh vào <code>public/images/</code></li>
+                <li>Thêm nhạc vào <code>public/audio/</code></li>
+                <li>Build: <code>npm run build</code></li>
+                <li>Deploy: Upload thư mục <code>dist/</code> lên hosting</li>
+            </ul>
+
+            <h3>🚀 Deploy nhanh:</h3>
+            <ul>
+                <li><strong>Netlify:</strong> Kéo thả thư mục dist/</li>
+                <li><strong>Vercel:</strong> <code>npm run deploy:vercel</code></li>
+                <li><strong>GitHub Pages:</strong> <code>npm run deploy:gh-pages</code></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
