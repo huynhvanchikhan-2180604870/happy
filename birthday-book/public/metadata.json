@@ -1,115 +1,121 @@
 {
   "girlfriendName": "Em Yêu",
-  "birthdayDate": "2025-09-01",
+  "birthdayDate": "2025-01-09",
   "age": 22,
   "greeting": {
     "vi": {
-      "title": "Chúc Mừng Sinh Nhật Em Yêu! 🎂",
-      "subtitle": "22 tuổi - Một chương mới của cuộc đời",
+      "title": "Chúc Mừng Sinh Nhật Em Yêu!",
+      "subtitle": "Một chương mới của cuộc đời",
       "message": [
         "Em yêu của anh,",
-        "Hôm nay là một ngày đặc biệt - ngày mà thiên thần của anh được sinh ra trên thế giới này.",
-        "22 năm qua, em đã lớn lên và trở thành một cô gái xinh đẹp, mạnh mẽ và tuyệt vời.",
-        "Anh muốn gửi đến em những lời chúc tốt đẹp nhất, chúc em luôn xinh đẹp, luôn vui vẻ và hạnh phúc.",
-        "Cảm ơn em đã đến bên anh, đã làm cho cuộc sống của anh trở nên ý nghĩa hơn.",
-        "Yêu em nhiều lắm! ❤️"
+        "Hôm nay là ngày cả thế giới trở nên lung linh hơn vì có sự hiện diện của em. 22 năm trôi qua, em như một bông hoa nở rực rỡ giữa vườn đời, mang hương sắc ngọt ngào đến với tất cả – và đặc biệt là với anh.",
+        "Em không chỉ là người anh thương, mà còn là giấc mơ, là bình minh, là cả bầu trời của anh. Mỗi nụ cười của em làm trái tim anh run rẩy, mỗi ánh mắt của em khiến cả thế giới quanh anh bừng sáng.",
+        "Anh ước có thể gom hết tất cả điều đẹp đẽ nhất – nắng mai, hoa thơm, gió nhẹ, bản nhạc du dương – để gửi tặng em trong hôm nay, như một lời nhắc rằng em xứng đáng với tất cả yêu thương ngọt ngào nhất.",
+        "Cảm ơn em đã bước vào cuộc đời anh, để từ đó anh biết thế nào là hạnh phúc thực sự. Anh hứa sẽ luôn bên em, nắm tay em qua mọi mùa giông bão, để mỗi năm sinh nhật em đều tràn ngập yêu thương."
       ]
     },
     "en": {
-      "title": "Happy 22nd Birthday My Love! 🎂",
-      "subtitle": "22 years - A new chapter of life",
+      "title": "Happy Birthday My Love!",
+      "subtitle": "A new chapter of life",
       "message": [
-        "My dearest love,",
-        "Today is a special day - the day my angel was born into this world.",
-        "For 22 years, you've grown into a beautiful, strong, and amazing woman.",
-        "I want to send you my best wishes for happiness, joy, and success.",
-        "Thank you for coming into my life and making it more meaningful.",
+        "My dear love,",
+        "Today is the most special day of the year - your birthday! You are the most beautiful, strongest and most wonderful person I have ever met.",
+        "I wish you always beautiful, happy and blessed. May you have a new year full of joy, success and the best things.",
+        "Thank you for making my life more meaningful. You are the most precious gift I have ever received.",
         "Love you so much! ❤️"
       ]
     }
   },
   "photos": [
     {
-      "src": "/images/photo1.jpg",
-      "caption": "Khoảnh khắc đầu tiên",
+      "src": "/photos/memory1.jpg",
+      "caption": "Kỷ niệm đầu tiên",
       "date": "2024-01-01"
     },
     {
-      "src": "/images/photo2.jpg",
-      "caption": "Nụ cười của em",
-      "date": "2024-03-15"
+      "src": "/photos/memory2.jpg",
+      "caption": "Ngày hạnh phúc",
+      "date": "2024-02-14"
     },
     {
-      "src": "/images/photo3.jpg",
-      "caption": "Chuyến đi đáng nhớ",
-      "date": "2024-06-20"
+      "src": "/photos/memory3.jpg",
+      "caption": "Du lịch cùng nhau",
+      "date": "2024-03-20"
     },
     {
-      "src": "/images/photo4.jpg",
-      "caption": "Hoàng hôn cùng em",
-      "date": "2024-08-10"
+      "src": "/photos/memory4.jpg",
+      "caption": "Bữa tối lãng mạn",
+      "date": "2024-04-15"
     },
     {
-      "src": "/images/photo5.jpg",
-      "caption": "Kỷ niệm không thể quên",
-      "date": "2024-09-01"
+      "src": "/photos/memory5.jpg",
+      "caption": "Sinh nhật năm ngoái",
+      "date": "2024-01-09"
     },
     {
-      "src": "/images/photo6.jpg",
-      "caption": "Hạnh phúc bên nhau",
-      "date": "2024-12-25"
+      "src": "/photos/memory6.jpg",
+      "caption": "Chuyến đi cuối tuần",
+      "date": "2024-05-10"
+    },
+    {
+      "src": "/photos/memory7.jpg",
+      "caption": "Ngày kỷ niệm",
+      "date": "2024-06-01"
+    },
+    {
+      "src": "/photos/memory8.jpg",
+      "caption": "Khoảnh khắc đẹp",
+      "date": "2024-07-20"
     }
   ],
   "music": {
     "playlist": [
       {
-        "id": "1",
-        "src": "/audio/perfect.mp3",
-        "title": "Perfect",
-        "artist": "Ed Sheeran",
-        "cover": "/images/cover1.jpg",
+        "id": 1,
+        "title": "Thác Nìng",
+        "artist": "2pillz x MONO x GREY D",
+        "src": "/music/thacning.mp3",
         "duration": "4:23"
       },
       {
-        "id": "2",
-        "src": "/audio/thinking-out-loud.mp3",
-        "title": "Thinking Out Loud",
-        "artist": "Ed Sheeran",
-        "cover": "/images/cover2.jpg",
-        "duration": "4:41"
-      },
-      {
-        "id": "3",
-        "src": "/audio/all-of-me.mp3",
-        "title": "All of Me",
-        "artist": "John Legend",
-        "cover": "/images/cover3.jpg",
+        "id": 2,
+        "title": "Bước đi/Nán lại?",
+        "artist": "2pillz x Văn Mai Hương",
+        "src": "/music/buocdi.mp3",
         "duration": "4:29"
       },
       {
-        "id": "4",
-        "src": "/audio/marry-you.mp3",
-        "title": "Marry You",
-        "artist": "Bruno Mars",
-        "cover": "/images/cover4.jpg",
-        "duration": "3:50"
+        "id": 3,
+        "title": "Qua Khung Cửa Sổ",
+        "artist": "Chillies",
+        "src": "/music/quakhungcuaso.mp3",
+        "duration": "4:45"
+      },
+      {
+        "id": 4,
+        "title": "Trái Tim Không Ngủ Yên",
+        "artist": "Quỳnh Anh ft. Thắng",
+        "src": "/music/traitimkhongnguyen.mp3",
+        "duration": "3:00"
       }
     ],
-    "autoplay": false,
+    "autoplay": true,
     "loop": true,
     "shuffle": false,
     "defaultVolume": 0.7
   },
-  "theme": "romantic",
+  "theme": {
+    "primary": "romantic-pink",
+    "secondary": "romantic-lavender",
+    "accent": "romantic-gold"
+  },
   "particles": {
     "enabled": true,
     "type": "hearts",
-    "count": 15,
-    "speed": "slow"
+    "count": 50
   },
   "easterEggs": {
     "enabled": true,
-    "tapCount": 7,
-    "message": "Anh yêu em ❤️"
+    "tapCount": 5
   }
 }

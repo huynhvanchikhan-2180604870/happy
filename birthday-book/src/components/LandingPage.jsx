@@ -146,9 +146,9 @@ const LandingPage = ({ onOpen }) => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={onOpen}
-                  className="mt-12 px-8 py-4 liquid-glass rounded-full font-medium text-gray-700 hover:text-romantic-pink transition-colors no-tap-highlight"
+                  className="mt-3 p-3 pb-8 liquid-glass rounded-full font-medium text-gray-700 hover:text-romantic-pink transition-colors no-tap-highlight"
                 >
-                  <span className="flex items-center gap-2">
+                  <span className="flex items-center gap-2 mt-">
                     <Heart className="animate-pulse" size={20} />
                     Mở sách
                     <Heart className="animate-pulse" size={20} />
